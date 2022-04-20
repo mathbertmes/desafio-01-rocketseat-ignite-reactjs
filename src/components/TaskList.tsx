@@ -27,6 +27,8 @@ export function TaskList() {
       };
       const newTasks = [...tasks, newTask];
       setTasks(newTasks);
+    } else {
+      alert("Insira o titulo da task");
     }
   }
 
